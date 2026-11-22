@@ -1,0 +1,5 @@
+a=int(input('Enter the angle 1: '))
+b=int(input('Enter the angle 2: '))
+c=int(input('Enter the angle 3: '))
+if a>0 and b>0 and c>0 and a+b+c==180: print('Valid triangle')
+else: print('Invalid triangle')
